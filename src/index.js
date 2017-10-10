@@ -121,7 +121,7 @@ export default class ReactUserTour extends Component {
 				typeof this.props.arrow === "function"
 				?
 				this.props.arrow({
-					position: position.positioned,
+					position: position,
 					width: this.props.style.width,
 					height: this.props.style.height,
 					size: this.props.arrowSize,
